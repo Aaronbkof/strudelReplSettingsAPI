@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using StudelSettingsAPI.Models;
+using StrudelSettingsAPI.Models;
 
-namespace StudelSettingsAPI.Controllers
+namespace StrudelSettingsAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,4 +1,5 @@
-﻿public class Settings
+﻿namespace StrudelSettingsAPI.Models;
+public class Settings
 {
     public int Id { get; set; }
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using StudelSettingsAPI.Models;
+using StrudelSettingsAPI.Models;
 
     public class strudelSettingsDbContext : DbContext
     {
@@ -12,5 +12,5 @@ using StudelSettingsAPI.Models;
         {
         }
 
-        public DbSet<StudelSettingsAPI.Models.Settings> Settings { get; set; } = default!;
+        public DbSet<StrudelSettingsAPI.Models.Settings> Settings { get; set; } = default!;
     }
