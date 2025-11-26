@@ -5,6 +5,9 @@ public class Settings
 
     // synthesizer controls (from the jsonHandling.js)
 
+    // name
+    public string Name { get; set; } = "Default";
+
     // bassline controls
     public string P1State { get; set; } = "on";
     public string BasslinePattern { get; set; } = "0";
