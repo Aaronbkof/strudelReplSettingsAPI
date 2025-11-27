@@ -31,7 +31,7 @@ The set up includes running the API which requires a clone and running of a sepe
 
 ## Running Both Projects
 Keep **both** running simultaneously:
-- **Terminal 1:** API (`dotnet run` or Visual Studio)
+- **Terminal 1:** API (`dotnet run` or click run or `F5` on Visual Studio)
 - **Terminal 2:** react project (`npm start`)
 
 ## Implementation of Components
