@@ -16,13 +16,13 @@ as of now the app supports both saving and loading via the original JSON file im
 The set up includes running the API which requires a clone and running of a seperate repo.
 1. firstly switch to the correct branch: `aaron_dev_final_MVC`
 2. clone the API repo: https://github.com/Aaronbkof/strudelReplSettingsAPI.git
-3. launch the API project and from there make sure to switch to the dev branch: `aaron_dev`
+3. make sure to switch to the dev branch: `aaron_dev` then launch the API project
 4. view the `appsettings.json` and change the `strudelSettingsDbContext` connection string to have the correct data source.
 5. run the API project.
 > the API end point is defined as a constant (`apiEndpoint`) defined in the `jsonHandling` component make sure to change this in accoradance to what port number your API runs on.
 
 ## setting up the react project
-1. Clone repository: https://github.com/Aaronbkof/strudel_reactor.git
+1. clone repository: https://github.com/Aaronbkof/strudel_reactor.git
 2. cd into project directory
 3. switch to branch `aaron_dev_final_MVC`
 4. run `npm install`
